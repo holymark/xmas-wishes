@@ -358,7 +358,7 @@ export default function Bubbles() {
         <span id="b"></span>
         <span id="a"></span>
         <div className="toggle" onClick={handleToggle}>
-          <img src="/toogle.gif" alt="Vercel Logo" width={200} height={300} />
+          <Image src="/toogle.gif" alt="Vercel Logo" width={200} height={300} />
         </div>
       </Gate>
       <User>
@@ -404,18 +404,28 @@ export default function Bubbles() {
           href={`whatsapp://send?text= ${
             query.name ? query.name : "someone special"
           } sent 
-        you a private message\n click this link to view it: axmaze.com/?name=${
+        you a special message\n click this link to view it: https://axmaze.com/?name=${
           query.name ? query.name : "someone special"
         }`}
           data-action="share/whatsapp/share"
           target="_blank"
         >
           <div className="img">
-            <img src="/whatsapp.png" alt="Vercel Logo" width={25} height={50} />
+            <Image
+              src="/whatsapp.png"
+              alt="Vercel Logo"
+              width={25}
+              height={50}
+            />
           </div>
           click to share on whatsapp
           <div className="img">
-            <img src="/whatsapp.png" alt="Vercel Logo" width={25} height={50} />
+            <Image
+              src="/whatsapp.png"
+              alt="Vercel Logo"
+              width={25}
+              height={50}
+            />
           </div>
         </Share>
       ) : (
