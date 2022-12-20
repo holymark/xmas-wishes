@@ -21,13 +21,6 @@ export default function Home() {
       </Head>
 
       <AdsDiv>
-        <Script
-          id="scr2"
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8467103316925015"
-          crossOrigin="anonymous"
-        ></Script>
-
         <ins
           className="adsbygoogle"
           style={{ display: "block" }}
@@ -46,12 +39,6 @@ export default function Home() {
       </div>
 
       <AdsDiv>
-        <Script
-          async
-          id="scr3"
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8467103316925015"
-          crossOrigin="anonymous"
-        ></Script>
         <ins
           className="adsbygoogle"
           style={{ display: "inline-block", width: "728px", height: "90px" }}
