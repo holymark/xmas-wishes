@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-  "build": "next build && next export",
+  "build": "vc --cwd build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -20,6 +20,7 @@
     "next": "13.0.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "4.9.4"
-  }
+    "typescript": "4.9.4","vercel":"^28.9.0"
+  },
+  "engines": { "node": "18.x" }
 }
